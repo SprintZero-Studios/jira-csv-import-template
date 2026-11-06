@@ -1,0 +1,7 @@
+Issue Type,Summary,Epic Name,Epic Link,Description,Priority,Labels
+Epic,Payments,Payments,,Everything needed to take a payment at checkout.,High,must-have
+Epic,Refunds,Refunds,,Self-serve refunds for support agents.,Medium,should-have
+Story,Apple Pay,,Payments,"One-tap checkout on iOS.
+- Safari only for v1",High,must-have
+Story,Save cards,,Payments,Returning customers pick a saved card.,High,must-have
+Story,Partial refunds,,Refunds,Refund part of an order from the order page.,Medium,should-have

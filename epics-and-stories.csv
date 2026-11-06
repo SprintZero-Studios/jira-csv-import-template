@@ -1,0 +1,7 @@
+Work item ID,Work type,Summary,Description,Parent,Priority,Labels
+1,Epic,Payments,Everything needed to take a payment at checkout.,,High,must-have
+2,Epic,Refunds,Self-serve refunds for support agents.,,Medium,should-have
+3,Story,Apple Pay,"One-tap checkout on iOS.
+- Safari only for v1",1,High,must-have
+4,Story,Save cards,Returning customers pick a saved card.,1,High,must-have
+5,Story,Partial refunds,Refund part of an order from the order page.,2,Medium,should-have

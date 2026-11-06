@@ -1,0 +1,82 @@
+Work item ID,Work type,Summary,Parent
+1,Epic,Engineering & Infrastructure,
+2,Epic,Spoken or typed plot-and-family brief,
+3,Epic,Design-changing follow-up questions only,
+4,Epic,2–3 floor plan options for the plot,
+5,Epic,Plain-language trade-offs on every option,
+6,Epic,Instant 3D house with dollhouse floor cut-away,
+7,Epic,Walkthrough as a little person or at eye level,
+8,Epic,"Revise by talking or typing, with instant 3D rebuild",
+9,Epic,Plan export as PDF and image,
+10,Epic,Saved project with simple sign-in,
+11,Epic,Hindi interface,
+12,Epic,Vastu as a toggle with stated trade-offs,
+13,Epic,Decision rationale page,
+14,Epic,Architect brief and architect-openable files,
+15,Epic,Setback and coverage guard rails for one launch region,
+16,Epic,Send any view to family on WhatsApp,
+17,Epic,Home Pass one-time checkout,
+18,Story,Set up the Supabase schema and RLS,1
+19,Story,Configure Supabase Auth with anonymous start and upgrade-on-save,1
+20,Story,"Set up deploy, CI and server-only secrets",1
+21,Story,Define the plan JSON schema and build the independent Verifier,1
+22,Story,Spike: STT provider for Hindi-English code-mix,1
+23,Story,Spike: LLM primary and alternative provider evaluation on Hindi/Hinglish test set,1
+24,Story,Spike: Revision-to-3D 5 s p90 feasibility,1
+25,Story,Spike: Mobile WebGL asset budget and degraded mode,1
+26,Story,"Spike: Worker host cold-start, cost and India region",1
+27,Story,"Spike: Payment provider order, webhook and refund contract",1
+28,Story,Spike: Founder decisions on Home Pass pricing and entitlements,1
+29,Story,Spike: Founder decisions on Vastu rules,1
+30,Story,Spike: Founder decisions on launch city guard rails,1
+31,Story,Spike: Founder decisions on plan generation behaviour,1
+32,Story,Spike: Founder decisions on languages and architect files,1
+33,Story,"Spike: Founder decisions on privacy, data residency and sharing",1
+34,Story,Build the typed brief input screen and the brief extraction route handler,2
+35,Story,Implement deterministic unit and numeral normalisation in the shared package,2
+36,Story,Build the plot diagram echo with compass and confirmation gate,2
+37,Story,Build microphone recording and the speech-to-text flow for the brief,2
+38,Story,Build the layout-impact rule table and follow-up question selector,3
+39,Story,Build the follow-up question UI that writes answers back to the brief,3
+40,Story,Implement envelope computation and room programme derivation with infeasibility reporting,4
+41,Story,Implement the grid-based layout search and the worker job that produces one verified plan,4
+42,Story,"Add archetype-driven diverse option selection, opening placement and metrics",4
+43,Story,Build the options screen with live job progress,4
+44,Story,Build the English trade-off template catalogue driven by metric diffs and flags,5
+45,Story,Show trade-offs on every option card and persist them as decision records,5
+46,Story,Build the procedural three.js model generator from plan JSON,6
+47,Story,Add compressed furniture assets with a degraded low-detail mode,6
+48,Story,Build the dollhouse floor cut-away control with touch orbit,6
+49,Story,Build the small-figure walkthrough controller with wall collision,7
+50,Story,Build the eye-level walkthrough controller with touch look and move,7
+51,Story,Add the mode switch and stair transitions between floors,7
+52,Story,"Build the revision applier job with locked-room re-solve, verifier gate and base-version check",8
+53,Story,Build the LLM revision interpreter with a closed operation vocabulary,8
+54,Story,Build the revise box with voice input and incremental 3D rebuild from plan diffs,8
+55,Story,Build the SVG plan renderer in the shared package,9
+56,Story,Build the worker export job for PDF and PNG with private storage and signed URLs,9
+57,Story,Add per-floor PDF and image download buttons to the project page,9
+58,Story,Build project create and autosave route handlers on an anonymous session,10
+59,Story,Build the save prompt and upgrade flow with Google or email OTP,10
+60,Story,Build the project list and cross-device reload,10
+61,Story,Set up next-intl with English and Hindi catalogues for UI strings,11
+62,Story,"Add Hindi templates for follow-up questions, trade-offs and rationale text",11
+63,Story,Embed a Hindi font in PDF exports,11
+64,Story,Build the Vastu on/off toggle in the same brief and options flow,12
+65,Story,Implement encoded Vastu tier-1 hard and tier-2 soft rule handling in the engine and Verifier,12
+66,Story,State the Vastu on/off layout cost from computed metric differences,12
+67,Story,Compose the rationale summary from decision records,13
+68,Story,Build the one-page rationale view with a printable layout,13
+69,Story,Compose the structured architect brief PDF from the brief and decision records,14
+70,Story,Build the DXF writer with explicit units and layers,14
+71,Story,Add the architect pack download to the project page,14
+72,Story,Encode the launch-city setback and coverage rule set with reviewer name and date,15
+73,Story,Implement guard-rail flag evaluation in the engine with mirrored road side tests,15
+74,Story,Show guard-rail flags and the unverified-city notice on option cards,15
+75,Story,Save view state and generate hashed share tokens,16
+76,Story,Build the view-only share route that restores the exact saved view,16
+77,Story,Add the WhatsApp link and Web Share API screenshot actions,16
+78,Story,Define the BillingProvider interface and idempotent order creation route,17
+79,Story,Build the signature-verified payment webhook with event dedupe and entitlement grant,17
+80,Story,Enforce entitlements server-side with configurable features and revision limit,17
+81,Story,Build the checkout screen and purchase status UI,17
